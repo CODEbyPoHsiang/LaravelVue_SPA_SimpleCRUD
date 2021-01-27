@@ -37938,7 +37938,7 @@ var render = function() {
             _vm._v(" "),
             _c("td", [_vm._v(_vm._s(product.updated_at))]),
             _vm._v(" "),
-            _c("td", [
+            _c("td", { attrs: { colspan: "2" } }, [
               _c(
                 "div",
                 { staticClass: "btn-group", attrs: { role: "group" } },
@@ -37994,7 +37994,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", [_vm._v("更新時間")]),
         _vm._v(" "),
-        _c("th", [_vm._v("操作")])
+        _c("th", { attrs: { colspan: "2" } }, [_vm._v("操作")])
       ])
     ])
   }

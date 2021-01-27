@@ -10,7 +10,7 @@
                 <th>價格</th>
                    <th>建立時間</th>
                 <th>更新時間</th>
-                <th>操作</th>
+                <th colspan="2">操作</th>
             </tr>
             </thead>
             <tbody>
@@ -20,7 +20,7 @@
                 <td>{{ product.detail }}</td>
                 <td>{{ product.created_at }}</td>
                 <td>{{ product.updated_at }}</td>
-                <td>
+                <td colspan="2">
                     <div class="btn-group" role="group">
                         <router-link :to="{name: 'edit', params: { id: product.id }}" class="btn btn-primary">編輯</router-link>&nbsp;&nbsp;
                         <button class="btn btn-danger" @click="deleteProduct(product.id)">刪除</button>
