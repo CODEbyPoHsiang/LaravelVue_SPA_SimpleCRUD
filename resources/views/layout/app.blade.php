@@ -8,7 +8,7 @@
 
     <title>Vue JS CRUD Operations in Laravel</title>
 
-    <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
+    <link href="{{ asset('css/app.css') }}" type="text/css" rel="stylesheet" />
     <style>
         .bg-light {
             background-color: #eae9e9 !important;
@@ -18,7 +18,7 @@
 
 <body>
     <div id="app"></div>
-    <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 </body>
 
 </html>
