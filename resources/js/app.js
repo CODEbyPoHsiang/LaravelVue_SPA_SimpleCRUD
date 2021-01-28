@@ -23,7 +23,7 @@ Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
  
 const router = new VueRouter({
-    mode: 'history',
+   // mode: 'history',
     routes: routes
 });
  
